@@ -9,7 +9,6 @@ $(function(){
 
     let random =window.localStorage.getItem('index')
     if(random ==null){
-        alert('f')
         random=0
         window.localStorage.setItem('index',random)
     }else{
